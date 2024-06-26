@@ -1,0 +1,92 @@
+<html>
+    <head>
+        CSS types
+        <style>
+            .head{
+                background-color: blueviolet;
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="background-color: aqua; color: red;" class="head">vijay is me</h1>
+    </body>
+    <fieldset>SO if we compare both inline and interal then it will prioritize inline</fieldset><br><br>
+    <hr>
+
+
+
+<fieldset>
+<head>
+    <link rel="stylesheet" href="./external.css">
+    <style>
+        .vijay{
+            background-color: aqua;
+            color: blueviolet;
+        }
+
+    </style>
+   
+</head>
+
+<body>
+    <h1 class="vijay">10k coders is good</h1>
+    <h2>10k coders i ok</h2>
+    <h2>10k coders</h2>
+    <fieldset>if we give the external css link in the head then it wil take internal css</fieldset>
+    
+</body><br><br>
+<hr>
+
+
+
+
+<head>
+    
+    <style>
+        .vijay{
+            background-color: aqua;
+            color: blueviolet;
+        }
+
+    </style>
+   
+</head>
+
+
+<body>
+    <link rel="stylesheet" href="./external.css">
+    <h1 class="sus">10k coders is good</h1>
+    <h2>10k coders i ok</h2>
+    <h2>10k coders</h2>
+    <fieldset>if we take external css in body then it will take external css compared to internal css</fieldset>
+</body>
+</fieldset><br><br>
+<hr><hr>
+
+
+
+
+
+
+<head>
+    
+</head>
+<link rel="stylesheet" href="./external.css">
+<body>
+    <h1  style="background-color: brown;color: blue;" class="suss">sushanth is good</h1>
+</body>
+<fieldset>by comparing internal and inline it choose iline</fieldset>
+<fieldset>So Finally inline comes first
+     internal comes second
+    external comes third
+    but compared to internal and external if we give external link tag in body then it proiritize external
+ </fieldset><br><br>
+ <hr>
+ <a href="./tables.html" style="font-size: 50px;">TABLES TASK</a><br><br><hr>
+
+ <a href="./selectorspecificity.html" style="font-size: 50px;">SELECTOR SPECIFICITY TASK</a>
+
+
+
+</html>
